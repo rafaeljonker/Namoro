@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .no {
+    position: relative;
+  }
+
+  .no:hover::before {
+    content: "Essa opção nao vale kkkkkkk";
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+.flex{
+    display: flex;
+    gap: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: pink;
+
+}
+span{
+    color: pink;
+    text-transform: uppercase;
+}
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+</style>
+</head>
+<body>
+    <h1>QUER NAMORAR COMIGO?</h1>
+<div class="flex">
+    
+    
+    <div><a href="index2.html">SIM</a></div>
+    
+    <div class="container">
+      <span class="no">não</span>
+    </div>
+</div>
+
+</body>
+</html>

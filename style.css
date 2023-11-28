@@ -1,0 +1,17 @@
+
+
+.nao:hover{
+display: none;
+
+}
+
+
+.nao_sim{
+    display: none;
+}
+
+.nao:hover .nao_sim{
+    display: block;
+}
+
+
